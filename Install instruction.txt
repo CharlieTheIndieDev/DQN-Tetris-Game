@@ -1,0 +1,30 @@
+Reference https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
+Go to anaconda environment in directory
+
+## To use the spec file to create an identical environment on the same machine or another machine: ##
+
+conda create --name myenv --file spec-file.txt
+
+
+
+-----------------------------------------------------------
+or
+----
+
+To create new environment using yml configuration file run:
+
+conda-env create -n new_env -f=\path\to\aigame.yml 
+
+-----------------------------------------------------------
+
+
+
+
+---------------------------------
+What was used to create the yml
+
+to save environment yml file
+
+conda-env export -n aigame>aigame.yml
+-------------------------------------
